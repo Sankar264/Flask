@@ -37,6 +37,28 @@ def postData():
                                    err="password is wrong")
     return render_template('index.html',msg = "success")
 
+@app.route('/updateData/<email>',methods=['PUT'])
+def updateData(email):
+    data = request.get_json()
+    email1 = data['email']
+    print(email1)
+    #DATABASE LOGIC for PUT
+    return f"Data is updated Successfully for {email}"
+
+@app.route('/deleteData/<email>',methods=['DELETE'])
+def deleteData(email):
+    #DATABASE Logic for Delete
+    return f"Data is deleted successfully for {email}"
+
+@app.route('/register',methods=['GET','POST'])
+def register():
+    if request.method == "GET":
+        name = request.args.get('name')
+    if request.method == "POST":
+        data = request.get_json()
+        name = data['name']
+    return f'The name is {name}'
+
 if __name__ == "__main__":
     app.run(host='0.0.0.0',
             port=5100,debug=True)
