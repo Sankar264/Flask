@@ -4,16 +4,16 @@ app = Flask(__name__)
 
 # Each student record contains id, name, and marks percentage.
 students = [
-    {"id": 1, "name": "Ananya", "percentage": 92},
-    {"id": 2, "name": "Bharath", "percentage": 84},
-    {"id": 3, "name": "Charan", "percentage": 78},
-    {"id": 4, "name": "Divya", "percentage": 67},
-    {"id": 5, "name": "Eshwar", "percentage": 88},
-    {"id": 6, "name": "Farah", "percentage": 73},
-    {"id": 7, "name": "Gokul", "percentage": 59},
-    {"id": 8, "name": "Harini", "percentage": 81},
-    {"id": 9, "name": "Ishaan", "percentage": 46},
-    {"id": 10, "name": "Jyothi", "percentage": 95}
+    {"id": 1, "name": "Sankar", "percentage": 92},
+    {"id": 2, "name": "Bharat", "percentage": 84},
+    {"id": 3, "name": "Rohith", "percentage": 78},
+    {"id": 4, "name": "ekanth", "percentage": 67},
+    {"id": 5, "name": "babu", "percentage": 88},
+    {"id": 6, "name": "deepika", "percentage": 73},
+    {"id": 7, "name": "layatri", "percentage": 59},
+    {"id": 8, "name": "Navya", "percentage": 81},
+    {"id": 9, "name": "aravind", "percentage": 46},
+    {"id": 10, "name": "harsha", "percentage": 95}
 ]
 
 def calculate_grade(percentage):
