@@ -11,7 +11,7 @@ students = [
     {"id": 5, "name": "babu", "percentage": 88},
     {"id": 6, "name": "deepika", "percentage": 73},
     {"id": 7, "name": "layatri", "percentage": 59},
-    {"id": 8, "name": "Navya", "percentage": 81},
+    {"id": 8, "name": "mohan", "percentage": 81},
     {"id": 9, "name": "aravind", "percentage": 46},
     {"id": 10, "name": "harsha", "percentage": 95}
 ]
